@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pratikdubariya/static/css/main.717a07af.css",
+    "main.js": "/pratikdubariya/static/js/main.387eb464.js",
+    "static/js/453.8ab44547.chunk.js": "/pratikdubariya/static/js/453.8ab44547.chunk.js",
+    "static/media/MyResume.pdf": "/pratikdubariya/static/media/MyResume.a2c8b1e83fb4c996ba99.pdf",
+    "static/media/VotingPortal.jpeg": "/pratikdubariya/static/media/VotingPortal.4c1d0709091fda8fa616.jpeg",
+    "static/media/PortFolio.jpeg": "/pratikdubariya/static/media/PortFolio.8dc0dea3ea4a97a52251.jpeg",
+    "static/media/IMAGE.png": "/pratikdubariya/static/media/IMAGE.ab6daf90dd24196b6fe5.png",
+    "static/media/Dinora.jpeg": "/pratikdubariya/static/media/Dinora.4a901236f840c75e6583.jpeg",
+    "index.html": "/pratikdubariya/index.html",
+    "main.717a07af.css.map": "/pratikdubariya/static/css/main.717a07af.css.map",
+    "main.387eb464.js.map": "/pratikdubariya/static/js/main.387eb464.js.map",
+    "453.8ab44547.chunk.js.map": "/pratikdubariya/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.717a07af.css",
+    "static/js/main.387eb464.js"
+  ]
+}
