@@ -1,11 +1,9 @@
 import React, { useContext } from "react";
-import MyImage from "../images/IMAGE.png";
 import { FaSchoolFlag, FaGithub, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { MdSchool } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
 import { FaFacebook,FaDownload } from "react-icons/fa";
 import Footer from "./Footer";
-import MyResume from "../images/MyResume.pdf";
 import { PortfolioContext } from "../context/AppContext";
 
 
@@ -18,7 +16,7 @@ const Home = () => {
             <div className="h-[85vh] flex flex-col gap-5 lg:gap-0 lg:flex-row lg:w-2/3 lg:mx-auto items-center justify-center p-4 lg:p-0">
                 <div className="flex lg:w-1/2 items-center justify-center ">
                     <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-135 flex items-end justify-center shadow-custom">
-                        <img className="w-64 h-64 lg:w-80 lg:h-80 rounded-b-full" src={MyImage} alt="myImage" />
+                        <img className="w-64 h-64 lg:w-80 lg:h-80 rounded-b-full" src={`${process.env.PUBLIC_URL}/images/IMAGE.png`} alt="myImage" />
                     </div>
                 </div>
                 <div className="h-auto lg:h-96 w-full lg:w-1/2 mt-6 lg:mt-0">
@@ -53,7 +51,7 @@ const Home = () => {
                         </div>
                         <div className={`${theme === 'light' ? 'bg-light-primary text-dark-primary':'bg-gradient-135 text-light-primary'} 
                         mt-4 p-2 rounded-[7px] text-lg lg:text-xl font-roboto font-normal`}>
-                            <a href={MyResume} download className="flex justify-center items-center gap-2" >
+                            <a href={`${process.env.PUBLIC_URL}/images/MyResume.pdf`} download className="flex justify-center items-center gap-2" >
                                 <span><FaDownload/></span>
                                 <span>My Resume</span>
                             </a>
